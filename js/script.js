@@ -100,8 +100,6 @@ function searchName() {
   }
   if (searchArray.length === 0) {
     studentList.innerHTML = noStudents;
-    studentList.style.fontSize = "70px";
-    studentList.style.textAlign = "center";
     linkList.innerHTML = "";
   }
 }
